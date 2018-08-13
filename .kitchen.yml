@@ -44,7 +44,7 @@ suites:
               network.host: 0.0.0.0
             plugins:
               lang-python: lang-python
-  - name: version-5.0
+  - name: version-6.0
     excludes:
       - ubuntu-14.04
     provisioner:
@@ -55,7 +55,7 @@ suites:
               - elasticsearch
         elasticsearch.sls:
           elasticsearch:
-            version: 5.*
+            version: 6.*
             plugins:
               lang-python: lang-python
             jvm_opts:
